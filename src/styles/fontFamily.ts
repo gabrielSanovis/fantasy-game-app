@@ -1,6 +1,6 @@
 export const fontFamily = {
-    regular: "Roboto",
-    mediun: "RobotoMedium",
-    semi: "RobotoSemi",
-    bold: "RobotoBold"
+    fregular: "Roboto_400Regular",
+    fmedium: "Roboto_500Medium",
+    fsemibold: "Roboto_600SemiBold",
+    fbold: "Roboto_700Bold"
 }
