@@ -19,7 +19,7 @@ export function OnboardingCarousel() {
   } = useSlidesViewModel();
 
   const handleNavigation = () => {
-    router.navigate("/(tab)");
+    router.replace("/(tab)");
   };
   return (
     <>

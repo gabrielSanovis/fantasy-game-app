@@ -1,6 +1,11 @@
+import { OnboardingCarousel } from "@/components/organisms/OnboardingCarousel";
+import { OnboardingTamplate } from "@/components/templates/OnboardingTemplate";
 import * as React from "react";
-import { OnboardingPage } from "@/components/pages/OnboardingPage";
 
 export default function OnboardingScreen() {
-  return <OnboardingPage />;
+  return (
+    <OnboardingTamplate>
+      <OnboardingCarousel />
+    </OnboardingTamplate>
+  );
 }
