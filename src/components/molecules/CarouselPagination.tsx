@@ -1,11 +1,12 @@
 import React from "react";
 import { View, TouchableOpacity } from "react-native";
-import { Link } from "expo-router";
 import { Pagination } from "react-native-reanimated-carousel";
-import { Icon } from "../atoms/Icon"; // Supondo que o Icon já tenha sido criado
+import { Icon } from "../atoms/Icon";
 import { SharedValue } from "react-native-reanimated";
 import { SlidePresentation } from "@/models/SlidePresentation";
 import { colors } from "@/styles/colors";
+import { Text } from "../atoms/Text";
+import { router } from "expo-router";
 
 type Props = {
   progress: SharedValue<number>;
@@ -20,11 +21,15 @@ export function CarouselPagination({
   onPressPagination,
   handleCarouselPagination,
 }: Props) {
+
+  const handleNavigation = () => {
+    router.replace("/(tab)")
+  }
   return (
     <View className="flex-row justify-between items-center">
-      <Link href={"/(tab)"} className="font-regular text-tip text-base">
+      <Text kind="body" onPress={handleNavigation}>
         Pular
-      </Link>
+      </Text>
 
       <Pagination.Basic
         progress={progress}

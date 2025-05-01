@@ -8,15 +8,15 @@ export default function Layout() {
     <Tabs
       screenOptions={{
         tabBarStyle: {
-          backgroundColor: colors.white,
-          borderColor: colors.primary,
-          borderTopWidth: 2,
-          borderStartWidth: 0.2,
-          borderEndWidth: 0.2,
-          height: 84,
-          borderTopColor: colors.primary,
+          position: "absolute",
+          overflow: "hidden",
           borderTopLeftRadius: 12,
           borderTopRightRadius: 12,
+          borderTopWidth: 2,
+          borderLeftWidth: 0.2,
+          borderRightWidth: 0.2,
+          borderColor: colors.primary,
+          height: 70,
         },
         tabBarIconStyle: {
           width: "100%",
@@ -24,25 +24,24 @@ export default function Layout() {
         },
         tabBarItemStyle: {
           borderTopLeftRadius: 12,
+          borderTopRightRadius: 12,
         },
         tabBarShowLabel: false,
         headerShown: false,
+        tabBarActiveTintColor: colors.white,
+        tabBarInactiveTintColor: colors.primary,
       }}
     >
       <Tabs.Screen
         name="index"
         options={{
-          tabBarIcon: ({ focused }) => (
+          tabBarIcon: ({ focused, color, size }) => (
             <View
-              className={`p-3 ${
+              className={`${
                 focused ? "bg-primary" : "bg-white"
-              } justify-center items-center rounded-full`}
+              } p-3 justify-center items-center rounded-full`}
             >
-              <FontAwesome6
-                size={24}
-                name="ranking-star"
-                color={focused ? colors.white : colors.primary}
-              />
+              <FontAwesome6 size={size} name="ranking-star" color={color} />
             </View>
           ),
         }}
@@ -50,17 +49,13 @@ export default function Layout() {
       <Tabs.Screen
         name="myTeam/index"
         options={{
-          tabBarIcon: ({ focused }) => (
+          tabBarIcon: ({ focused, color, size }) => (
             <View
               className={`p-3 ${
                 focused ? "bg-primary" : "bg-white"
               } justify-center items-center rounded-full`}
             >
-              <FontAwesome6
-                size={24}
-                name="people-group"
-                color={focused ? colors.white : colors.primary}
-              />
+              <FontAwesome6 size={size} name="people-group" color={color} />
             </View>
           ),
         }}

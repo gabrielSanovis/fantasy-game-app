@@ -1,9 +1,5 @@
-import { Text, View } from "react-native";
+import { Leaderboard } from "@/components/organisms/Leaderboard";
 
 export default function RankingScreen() {
-  return (
-    <View className="p-8">
-      <Text className="font-bold text-2xl">RANKING</Text>
-    </View>
-  );
+  return <Leaderboard />;
 }
