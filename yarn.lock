@@ -827,6 +827,16 @@
   resolved "https://registry.yarnpkg.com/@expo-google-fonts/roboto/-/roboto-0.3.0.tgz#84964322c5a055b406968f70bb178112937e3561"
   integrity sha512-+/cmb6N/NDsFanV469ri52C/kz0QWYWnNBi9miKLSlTVpA3EJeLro3mmBxmZxH/N9PRRpoFZ6+dmwkOxh/jbZg==
 
+"@expo-google-fonts/saira-condensed@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/saira-condensed/-/saira-condensed-0.3.0.tgz#e7b134b84ab19f7bc1cc9c77808a0f66a787efe1"
+  integrity sha512-M3ciWva2+NzSe3KrxZnBweuprOcGUER1hkd0ZzW/a5N7ANDYOgD+et4fe9KONqdUTmet1pycbswrB5GYtQO27Q==
+
+"@expo-google-fonts/saira@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/saira/-/saira-0.3.0.tgz#7fac03b90331bb2816c00aa4b4bfdb57d2e1510f"
+  integrity sha512-u4DkcxJf8Ik9snM4xpcyDwxDpmfeh38/MrA8QW6/vFuZDQ1949wc8nzEcZ4FmbmCHVNM4DQ5vncU92qkM/SOyQ==
+
 "@expo/bunyan@^4.0.0":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@expo/bunyan/-/bunyan-4.0.1.tgz#ab9e17e36c71c704a0ce72168378a487368da736"
@@ -6061,6 +6071,11 @@ react-native-screens@~4.4.0:
   dependencies:
     react-freeze "^1.0.0"
     warn-once "^0.1.0"
+
+react-native-toast-message@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-toast-message/-/react-native-toast-message-2.3.0.tgz#c25fb40d7af4388f6a798efbfca479d53916ed00"
+  integrity sha512-d7LldTK1ei1Bl7RFhoOYw8hVQ4oKPQHORYI//xR9Pyz3HxSlFlvQbueE5X3KLoemRRgBrOUg3zY6DxXnxrVLRg==
 
 react-native-web@~0.19.13:
   version "0.19.13"

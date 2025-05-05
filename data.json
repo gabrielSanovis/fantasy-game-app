@@ -1,0 +1,303 @@
+[
+  {
+  "id": 1,
+  "name": "Weverton",
+  "position": "GOL",
+  "team": "PAL",
+  "score": 182.4
+  },
+  {
+  "id": 2,
+  "name": "Marcos Rocha",
+  "position": "DEF",
+  "team": "PAL",
+  "score": 167.2
+  },
+  {
+  "id": 3,
+  "name": "Gustavo Gómez",
+  "position": "DEF",
+  "team": "PAL",
+  "score": 154.6
+  },
+  {
+  "id": 4,
+  "name": "Murilo",
+  "position": "DEF",
+  "team": "PAL",
+  "score": 145.3
+  },
+  {
+  "id": 5,
+  "name": "Guilherme Arana",
+  "position": "DEF",
+  "team": "CAM",
+  "score": 138.9
+  },
+  {
+  "id": 6,
+  "name": "Pulgar",
+  "position": "VOL",
+  "team": "FLA",
+  "score": 129.7
+  },
+  {
+  "id": 7,
+  "name": "Gerson",
+  "position": "MEI",
+  "team": "FLA",
+  "score": 121.5
+  },
+  {
+  "id": 8,
+  "name": "Arrascaeta",
+  "position": "MEI",
+  "team": "FLA",
+  "score": 115.8
+  },
+  {
+  "id": 9,
+  "name": "Rony",
+  "position": "ATA",
+  "team": "CAM",
+  "score": 109.4
+  },
+  {
+  "id": 10,
+  "name": "Calleri",
+  "position": "ATA",
+  "team": "SAO",
+  "score": 102.3
+  },
+  {
+  "id": 11,
+  "name": "Bruno Henrique",
+  "position": "ATA",
+  "team": "FLA",
+  "score": 97.6
+  },
+  {
+  "id": 12,
+  "name": "Pedro",
+  "position": "ATA",
+  "team": "FLA",
+  "score": 93.2
+  },
+  {
+  "id": 13,
+  "name": "Estêvão",
+  "position": "ATA",
+  "team": "PAL",
+  "score": 88.7
+  },
+  {
+  "id": 14,
+  "name": "Gustavo Scarpa",
+  "position": "MEI",
+  "team": "PAL",
+  "score": 84.1
+  },
+  {
+  "id": 15,
+  "name": "Thiago Silva",
+  "position": "DEF",
+  "team": "FLU",
+  "score": 79.5
+  },
+  {
+  "id": 16,
+  "name": "Oscar",
+  "position": "MEI",
+  "team": "SAO",
+  "score": 75.0
+  },
+  {
+  "id": 17,
+  "name": "Hulk",
+  "position": "ATA",
+  "team": "CAM",
+  "score": 70.4
+  },
+  {
+  "id": 18,
+  "name": "Philippe Coutinho",
+  "position": "MEI",
+  "team": "VAS",
+  "score": 65.8
+  },
+  {
+  "id": 19,
+  "name": "Yuri Alberto",
+  "position": "ATA",
+  "team": "COR",
+  "score": 61.3
+  },
+  {
+  "id": 20,
+  "name": "Neymar",
+  "position": "MEI",
+  "team": "SAN",
+  "score": 56.7
+  },
+  {
+  "id": 21,
+  "name": "Pedro Raul",
+  "position": "ATA",
+  "team": "CEA",
+  "score": 51.2
+  },
+  {
+  "id": 22,
+  "name": "Ferreirinha",
+  "position": "ATA",
+  "team": "SAO",
+  "score": 48.5
+  },
+  {
+  "id": 23,
+  "name": "Lucas Moura",
+  "position": "ATA",
+  "team": "SAO",
+  "score": 45.9
+  },
+  {
+  "id": 24,
+  "name": "Jonathan Calleri",
+  "position": "ATA",
+  "team": "SAO",
+  "score": 43.1
+  },
+  {
+  "id": 25,
+  "name": "Lucas Barbosa",
+  "position": "ATA",
+  "team": "RBB",
+  "score": 40.6
+  },
+  {
+  "id": 26,
+  "name": "Isidro Pitta",
+  "position": "ATA",
+  "team": "RBB",
+  "score": 38.3
+  },
+  {
+  "id": 27,
+  "name": "Tiquinho Soares",
+  "position": "ATA",
+  "team": "SAN",
+  "score": 36.0
+  },
+  {
+  "id": 28,
+  "name": "Barreal",
+  "position": "MEI",
+  "team": "SAN",
+  "score": 33.7
+  },
+  {
+  "id": 29,
+  "name": "Gonzalo Freitas",
+  "position": "MEI",
+  "team": "GOI",
+  "score": 31.4
+  },
+  {
+  "id": 30,
+  "name": "Vitor Hugo",
+  "position": "ATA",
+  "team": "GOI",
+  "score": 29.1
+  },
+  {
+  "id": 31,
+  "name": "Jajá",
+  "position": "ATA",
+  "team": "GOI",
+  "score": 26.8
+  },
+  {
+  "id": 32,
+  "name": "Anselmo Ramon",
+  "position": "ATA",
+  "team": "GOI",
+  "score": 24.5
+  },
+  {
+  "id": 33,
+  "name": "David Braz",
+  "position": "DEF",
+  "team": "MIR",
+  "score": 22.2
+  },
+  {
+  "id": 34,
+  "name": "Jemmes",
+  "position": "DEF",
+  "team": "MIR",
+  "score": 20.0
+  },
+  {
+  "id": 35,
+  "name": "Walter",
+  "position": "GOL",
+  "team": "MIR",
+  "score": 17.8
+  },
+  {
+  "id": 36,
+  "name": "Alex Muralha",
+  "position": "GOL",
+  "team": "MIR",
+  "score": 15.5
+  },
+  {
+  "id": 37,
+  "name": "Zé Rafael",
+  "position": "MEI",
+  "team": "SAN",
+  "score": 13.2
+  },
+  {
+  "id": 38,
+  "name": "Eduard Atuesta",
+  "position": "MEI",
+  "team": "PAL",
+  "score": 11.0
+  },
+  {
+  "id": 39,
+  "name": "Emiliano Martínez",
+  "position": "MEI",
+  "team": "PAL",
+  "score": 8.8
+  },
+  {
+  "id": 40,
+  "name": "Lucas Evangelista",
+  "position": "MEI",
+  "team": "PAL",
+  "score": 6.6
+  },
+  {
+  "id": 41,
+  "name": "Vitor Roque",
+  "position": "ATA",
+  "team": "PAL",
+  "score": 4.4
+  },
+  {
+  "id": 42,
+  "name": "Bruno Fuchs",
+  "position": "DEF",
+  "team": "PAL",
+  "score": 2.2
+  },
+  {
+  "id": 43,
+  "name": "Micael",
+  "position": "DEF",
+  "team": "PAL",
+  "score": 0.0
+  }
+ ]
