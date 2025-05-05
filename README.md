@@ -99,24 +99,6 @@ Lista os melhores jogadores
 
 Monte seu time do seu jeito
 
-## 📁 Estrutura de Pastas
-
-```
-├── assets/             # Imagens e recursos estáticos
-├── src/                # Código-fonte da aplicação        # 
-│   ├── app/            # Rotas e configuração (Expo Router)
-│   │   ├── (tabs)/     # Navegação por tabs
-│   │   └── index.tsx   # Onboarding
-│   ├── components/     # Componentes usando atomic design
-│   ├── factories/      # Criação de models
-│   ├── model/          # Models utilizados pelas Views
-│   ├── store/          # Store relacionado ao zustand
-│   ├── styles/         # Estilos globais
-│   ├── types/          # Overrides d.ts
-│   ├── utils/          # funções
-│   ├── viewmodels/     # ViewModels do projeto
-```
-
 ## ⚙️ Configurações Personalizadas
 
 ### Cores e Estilos
