@@ -6,12 +6,16 @@ import {
   Roboto_600SemiBold,
   Roboto_700Bold,
 } from "@expo-google-fonts/roboto";
+import {
+  SairaCondensed_800ExtraBold
+} from "@expo-google-fonts/saira-condensed";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import "../styles/global.css";
 import { ActivityIndicator } from "react-native";
 import { useLeaderboardStore } from "@/store/leaderboard";
 import data from "../../data.json";
 import { useEffect } from "react";
+import Toast from 'react-native-toast-message';
+import "../styles/global.css";
 
 export default function Layout() {
   const { addPlayerCollection } = useLeaderboardStore();
@@ -20,9 +24,12 @@ export default function Layout() {
     Roboto_500Medium,
     Roboto_600SemiBold,
     Roboto_700Bold,
+    SairaCondensed_800ExtraBold
   });
 
+
   useEffect(() => {
+    console.log(data[0])
     addPlayerCollection(data);
   }, []);
 
@@ -34,6 +41,7 @@ export default function Layout() {
   return (
     <GestureHandlerRootView>
       <Slot />
+      <Toast />
     </GestureHandlerRootView>
   );
 }

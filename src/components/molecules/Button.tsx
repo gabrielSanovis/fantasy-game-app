@@ -7,7 +7,7 @@ type Kind = "primary" | "secondary" | "outline" | "disabled";
 type Size = "small" | "medium" | "large";
 
 type Props = PropsWithChildren<
-  { kind: Kind; size: Size } & TouchableOpacityProps
+  { kind: Kind; size?: Size } & TouchableOpacityProps
 >;
 
 export function Button({

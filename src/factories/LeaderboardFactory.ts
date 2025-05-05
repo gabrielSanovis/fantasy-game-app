@@ -2,6 +2,7 @@ import { RankedPLayer } from "@/models/RankingPlayers";
 import { z } from "zod";
 
 const RawPlayerSchema = z.object({
+  id: z.number(),
   name: z.string(),
   position: z.string(),
   team: z.string(),
@@ -9,21 +10,17 @@ const RawPlayerSchema = z.object({
   rankPosition: z.number(),
 });
 
-type RawPlayer = z.infer<typeof RawPlayerSchema>;
-
 export const LeaderboardFactory = {
   create(player: object): RankedPLayer {
     const parsed = RawPlayerSchema.parse(player);
-    return toRankedPlayer(parsed);
+    return {
+      id: parsed.id,
+      name: parsed.name,
+      playerPosition: parsed.position,
+      team: parsed.team,
+      score: parsed.score.toFixed(1),
+      rankPosition: parsed.rankPosition,
+    };
   },
 };
 
-const toRankedPlayer = (data: RawPlayer): RankedPLayer => {
-  return {
-    name: data.name,
-    playerPosition: data.position,
-    team: data.team,
-    score: data.score.toFixed(1),
-    rankPosition: data.rankPosition,
-  };
-};
