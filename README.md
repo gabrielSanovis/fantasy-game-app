@@ -141,6 +141,17 @@ Para animações fluídas, o projeto usa Reanimated.
 
 ## 📸 Screenshots
 
+
+
+https://github.com/user-attachments/assets/b170d662-dfec-4487-85f3-96e6d861ddca
 <div align="center">
+     <img src="https://github.com/user-attachments/assets/b170d662-dfec-4487-85f3-96e6d861ddca" width="200" alt="Tela de Login" />
+  <img src="https://github.com/user-attachments/assets/e1fb4d51-cbb2-49a0-bd44-d27fc05e134e" width="200" alt="Tela de Onboarding" />
+  <img src="https://github.com/user-attachments/assets/6e4db7e5-0f0b-4d06-8a52-ed093dafc8bc" width="200" alt="Jogos ao Vivo" />
+  <img src="https://github.com/user-attachments/assets/4b6b61c8-acab-4088-baab-497c9cfd6946" width="200" alt="Perfil de Time" />
+  <img src="https://github.com/user-attachments/assets/aafd3be1-9d2f-4190-a834-1c9904dc3a5c" width="200" />
+  <img src="https://github.com/user-attachments/assets/2120e511-584d-4bae-9b8d-b8303e4fec45" width="200" />
+  <img src="https://github.com/user-attachments/assets/234d1791-cda8-488b-9b88-5b2606274ab4" width="200" />
+  <img src="https://github.com/user-attachments/assets/4bd7e98d-95a6-4680-ae7e-1f5989953007" width="200" />
 
 </div>
