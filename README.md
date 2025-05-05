@@ -67,6 +67,8 @@ src/
 
 ### ▶️ Executando o Projeto
 
+- [APK BUILD](https://expo.dev/accounts/sanovis/projects/fantasy-game-app/builds/5bcf7e1a-3069-45a3-9ea7-948b8433686c) (link para build gerada com eas)
+
 1. Inicie o servidor de desenvolvimento:
 
    ```bash
