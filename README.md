@@ -13,22 +13,6 @@ Fantasy Game é uma aplicação móvel onde usuários podem montar times virtuai
 - [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
 - [React Native Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/)
 
-## 🏗️ Arquitetura
-
-O projeto segue o 
-
-```
-src/
-├── @types/             # Definições de tipos globais
-├── app/                # Rotas e telas (Expo Router)
-├── application/        # Lógica de aplicação e serviços
-├── constants/          # Constantes da aplicação
-├── domain/             # Entidades e regras de negócio
-├── infrastructure/     # Implementações de APIs e serviços
-├── presentation/       # Componentes e hooks de UI
-└── status-bar/         # Configuração da barra de status
-```
-
 ## 🚀 Setup do Projeto
 
 ### Pré-requisitos
